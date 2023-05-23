@@ -8,7 +8,7 @@ export default function Nav({ currentPage, pageChangeHandler }) {
                 <ul className="navTabs">
                     <li className="navItem">
                         <a
-                            href="#about"
+                            href="#AboutMe"
                             onClick={() => { pageChangeHandler("AboutMe") }}
                             className={"navLink"}
                         >About Me
@@ -17,7 +17,7 @@ export default function Nav({ currentPage, pageChangeHandler }) {
 
                     <li className="navItem">
                         <a
-                            href="#portfolio"
+                            href="#Portfolio"
                             onClick={() => { pageChangeHandler("Portfolio") }}
                             className={"navLink"}
                         >Portfolio
@@ -26,7 +26,7 @@ export default function Nav({ currentPage, pageChangeHandler }) {
 
                     <li className="nav item">
                         <a
-                            href="#resume"
+                            href="#Resume"
                             onClick={() => { pageChangeHandler("Resume") }}
                             className={"navLink"}
                         >Resume
@@ -35,7 +35,7 @@ export default function Nav({ currentPage, pageChangeHandler }) {
 
                     <li className="navItem">
                         <a
-                            href="#contact"
+                            href="#ContactMe"
                             onClick={() => { pageChangeHandler("Contact") }}
                             className={"navLink"}
                         >Contact Me
