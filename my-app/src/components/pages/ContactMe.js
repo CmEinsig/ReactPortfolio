@@ -28,7 +28,7 @@ export default function Contact() {
                         <textarea
                             name="message"
                             className="form-control message"
-                        >{Insert your message}</textarea>
+                        >Insert Your message here!</textarea>
                     </div>
                     <div className="submitButton">
                         <button type="button" className="btn btn-outline-dark">Submit</button>
