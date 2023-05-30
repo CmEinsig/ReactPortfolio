@@ -3,7 +3,7 @@ import React from "react"
 export default function Nav({ currentPage, pageChangeHandler }) {
     return (
         <div className="header">
-            <h1 className="name">Courtney Einsig Ei</h1>
+            <h1 className="name">Courtney Einsig </h1>
             <nav>
                 <ul className="navTabs">
                     <li className="navItem">

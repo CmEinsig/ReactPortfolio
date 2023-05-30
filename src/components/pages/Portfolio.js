@@ -1,10 +1,10 @@
 import React from "react"
-
+import projects from "../../mywork"
 
 export default function Portfolio() {
     return (
         <div>
-            <h1>My Creations</h1>
+            <h1>Projects and Creations</h1>
             <div className="container ">
                 <div className="row ">
                     {projects.map((project) => (

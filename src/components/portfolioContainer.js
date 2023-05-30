@@ -1,10 +1,10 @@
 import React, { useState } from "react"
-import Nav from "./Nav"
+import Nav from "./nav"
 import AboutMe from "./pages/AboutMe"
 import Portfolio from "./pages/Portfolio"
 import Contact from "./pages/Contact"
 import Resume from "./pages/Resume" 
-import Footer from "./Footer"
+import Footer from "./footer"
 
 export default function PortfolioContainer() {
     //set default for currentPage to be AboutMe page
