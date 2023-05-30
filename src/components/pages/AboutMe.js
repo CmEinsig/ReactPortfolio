@@ -1,5 +1,5 @@
 import React from "react"
-import avatar from "../../assets/images/"
+import avatar from "../../assets/images/Me.jpg"
 
 export default function AboutMe() {
     return (
